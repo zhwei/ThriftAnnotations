@@ -1,0 +1,29 @@
+{
+    "name": "zhwei/thrift-annotation",
+    "type": "libary",
+    "require": {
+        "apache/thrift": "^0.11.0",
+        "doctrine/annotations": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhwei\\ThriftAnnotation\\": "src/ThriftAnnotation"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "symfony/var-dumper": "^3.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhwei\\ThriftAnnotationTests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhwei",
+            "email": "zhwei.yes@gmail.com"
+        }
+    ]
+}
